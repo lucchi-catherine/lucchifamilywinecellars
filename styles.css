@@ -1,0 +1,1165 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, auto);
+    grid-gap: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, auto);
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 5px;
+}
+
+.wrapper2 p {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em 2em 2em 2em;
+    margin: 0 auto;
+}
+
+.wrapper2 h3 {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3em 1em 0em 2em;
+}
+
+.howitstartedtext p {
+    padding: 1.5em 4em 0em 4em;
+}
+
+.qualitytext p {
+    padding: 1.5em 4em 0em 4em;
+}
+
+.wrapper33 {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 2fr 1fr 1fr 3fr 4fr;
+    grid-template-rows: minmax(auto, auto);
+}
+
+.wineselectioncontent,
+.coolwine {
+    grid-column: 5/6;
+    grid-row: 1/3;
+    width: 100%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+
+}
+
+.wineselectioncontent {
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+}
+
+.coolwinetext {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    padding: .5em;
+
+}
+
+.card-fruit {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.card-fruit .card-header {
+    background: rgb(250, 203, 167);
+}
+
+.card-fruit .card-body {
+    background: rgb(255, 229, 209);
+}
+
+
+.card-header {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em;
+}
+
+.card-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding: 1.5em;
+    line-height: 5vh;
+    width: 100%;
+}
+
+.card-dryred .card-header {
+    background: rgb(192, 64, 64);
+}
+
+.card-dryred .card-body {
+    background: rgb(212, 114, 114);
+    padding-bottom: 4em;
+}
+
+.card-rose .card-header {
+    background: rgb(255, 176, 176);
+}
+
+.card-rose .card-body {
+    background: rgb(255, 232, 232);
+}
+
+.card-rose {
+    margin-top: .5em;
+}
+
+.card-sweetwhite .card-header {
+    background: whitesmoke;
+    margin-top: .5em;
+}
+
+.card-sweetwhite .card-body {
+    background: white;
+    padding-bottom: 20em;
+}
+
+.card-semisweetwhite {
+    margin-top: .5em;
+}
+
+.card-blendedreds .card-header {
+    background: rgb(173, 92, 92);
+}
+
+.card-blendedreds .card-body {
+    background: rgb(190, 120, 120);
+}
+
+.card-sweetblush .card-header {
+    background: rgb(255, 176, 176);
+}
+
+.card-sweetblush .card-body {
+    background: rgb(255, 232, 232);
+}
+
+.card-sweetblush {
+    margin-top: .5em;
+}
+
+.card-seasonal .card-header {
+    background: rgb(255, 161, 88);
+}
+
+.card-seasonal .card-body {
+    background: rgb(255, 186, 134);
+}
+
+.card-semisweetwhite .card-header {
+    background: rgb(255, 245, 198);
+}
+
+.card-semisweetwhite .card-body {
+    background: rgb(255, 249, 221);
+    padding-bottom: 9em;
+}
+
+.card-drywhite .card-header {
+    background: rgba(255, 252, 225, 0.699);
+}
+
+.card-drywhite .card-body {
+    background: rgba(255, 254, 247, 0.699);
+    padding-bottom: 10em;
+}
+
+.card-drywhite {
+    margin-top: .5em;
+}
+
+.wrapper55 {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, auto);
+}
+
+.howitstartedpic img {
+    max-width: 100%;
+    height: 70vh;
+}
+
+.howitstarted img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.howitstartedtext {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin: 0 auto;
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+}
+
+.farmerphotocontainer {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(auto, auto);
+}
+
+.farmerphoto {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 100%;
+
+}
+
+.text-block {
+    background: rgb(14, 13, 13, .6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    padding: 1em .25em 1em .25em;
+}
+
+.aboutcontent {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    box-sizing: border-box;
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+}
+
+.aboutcontent h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    width: 100%;
+    padding: 2em 1em .5em 2em;
+}
+
+.aboutcontent p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0em 3em 4em 4em;
+    font-size: 1em;
+}
+
+.qualitypic {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.qualitypic img {
+    width: 100%;
+    height: 57vh;
+}
+
+.qualitytext {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+}
+
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, auto);
+    width: 100%;
+    grid-gap: 5px;
+}
+
+.wrapper44 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, auto);
+    grid-gap: 10px;
+}
+
+
+.navbarlist li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    padding: 2em 1em 2em 0;
+    list-style: none;
+}
+
+.navbarlist li {
+    padding: 2em 1em 2em 2em;
+    list-style-type: none;
+    border-bottom: white 2px solid;
+}
+
+.navbarlist li:hover {
+    background: rgb(240, 236, 233);
+}
+
+.navbarlist li:hover a {
+    color: black;
+    text-decoration-line: none;
+}
+
+#sidebar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background: #8a1724;
+    padding-left: 0;
+}
+
+.sidebarheader {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 80%;
+}
+
+.headerbg {
+    background: white;
+}
+
+ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.mainpic {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: white;
+}
+
+.mainpic img {
+    max-width: 100%;
+
+}
+
+.mainpictext {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 10;
+}
+
+.mainpictext h1 {
+    margin-top: 3em;
+    font-size: 3em;
+    margin-left: 10em;
+    padding-right: .5em;
+    text-align: right;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainpictext h3 {
+    padding-right: 1.5em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+
+.visitusinfo {
+    grid-columns: 2/3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: white;
+}
+
+.visitusbody {
+    box-sizing: border-box;
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+    padding-top: 4.5em;
+    padding-bottom: 29em;
+}
+
+.visitustitle h1 {
+    size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .75em;
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+}
+
+
+.visitusinfo h2 {
+    size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 1em 0 .75em;
+}
+
+.visitusinfo p {
+    size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1em 0 1.5em;
+}
+
+.visitushours p {
+    margin-bottom: 1.5em;
+}
+
+.visitusinfo .picwrapper {
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(200px, auto);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.picwrapper {
+    display: grid;
+}
+
+.picwrapper img {
+    max-width: 630px;
+    margin: 3px;
+}
+
+.pic1cont {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.pic1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+}
+
+.pic1textblock {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 3;
+    background: rgb(14, 13, 13, .6);
+    color: white;
+    padding: 1.5em .75em 1em 1em;
+}
+
+.pic2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.pic3cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.pic3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.pic3textblock {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 3;
+    max-height: 130px;
+    background: rgb(14, 13, 13, .6);
+    color: white;
+    margin-top: 5em;
+    padding: 1.5em .75em 1em 1em;
+}
+
+#contact-form {
+    grid-column: 2/5;
+    grid-row: 1/3;
+    margin-left: .5em;
+}
+
+#contact-form .container {
+    padding: 4em;
+    box-sizing: border-box;
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+
+}
+
+.messages {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    box-sizing: border-box;
+    border: solid 1px #797777;
+    box-shadow: 2px 2px #797777;
+    margin-bottom: .5em;
+}
+
+.messages h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    padding: 2em 2em 2em 2em;
+
+}
+
+.messages p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .70em;
+    padding-top: 1em;
+}
+
+.picwrappercontact img {
+    max-width: 380px;
+    padding: .25em;
+}
+
+.radio-inline {
+    margin: 0em .5em 0em .5em;
+}
+
+.btn:hover {
+    background: rgb(180, 41, 41);
+    color: white;
+}
+
+.btn {
+    background: rgb(240, 236, 233);
+    color: black;
+}
+
+.upcomingeventscontent {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(auto, auto);
+    padding: 1em;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.upcomingeventscontent h1 {
+    padding: 1em 1.2em .5em 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+}
+
+.upcomingeventscontent2 h1 {
+    padding: 1em 2em .5em 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+}
+
+.upcomingeventscontent p {
+    padding: 1em 1.4em 0em 1.4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.upcomingeventscontent2 p {
+    padding: 0em 2.2em 0em 2.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2em;
+}
+
+.upcomingeventscontent2 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.imageandchocolatepics img {
+    max-width: 400px;
+}
+
+.imageandchocolatepics {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(auto, auto);
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.imagecontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(auto, auto);
+    max-height: 370px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.imagevents {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.imagecontainer p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: rgba(221, 221, 221, 0.9);
+    color: white;
+    font-size: .75em;
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 2.4em;
+}
+
+.chocolatecontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(auto, auto);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.chocolatepic {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    max-height: 350px;
+}
+
+.chocolatecontainer p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: rgb(14, 13, 13, .9);
+    color: white;
+    font-size: .75em;
+    padding: 1em 1em 1em 1em;
+}
+
+.picwrapperevents img {
+    max-width: 300px;
+    margin-bottom: .5em;
+}
+
+.picwrapperevents {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#carouselFadeExampleIndicators2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    min-width: 500px;
+    max-height: 400px;
+}
+
+.marginfix {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imagecontainer p {
+    background: rgb(14, 13, 13, .9);
+}
+
+/**ALL MEDIA QUERIES**/
+@media only screen and (max-width:1050px) {
+
+    .howitstartedtext h3 {
+        padding-top: 1em;
+        font-size: 1.5em;
+    }
+
+    .howitstartedtext p {
+        font-size: .9em;
+    }
+
+    .qualitytext h3 {
+        font-size: 1.5em;
+        padding-top: 1em;
+    }
+
+    .qualitytext p {
+        font-size: .9em;
+    }
+
+    .seasonal-rose {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .card-sweetwhite .card-body {
+        padding-bottom: 2em;
+    }
+
+    .imagecontainer p {
+        background: rgb(14, 13, 13, .9);
+    }
+
+    .input.btn.btn-send {
+        width: 80%;
+    }
+}
+
+/**TABLET**/
+
+@media only screen and (max-width: 959px) {
+    .dryred-semisweetwhite {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .picwrappercontact {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .card-sweetwhite .card-body {
+        padding-bottom: 2em;
+    }
+
+    .card-drywhite .card-body {
+        padding-bottom: 1em;
+        margin-bottom: 5px;
+    }
+
+    .visitusinfo {
+        grid-column: 2/5;
+        grid-row: 2/3;
+    }
+
+    .visitusbody {
+        padding-bottom: 2em;
+    }
+
+    .mainpic {
+        grid-row: 1/2;
+        grid-column: 2/5;
+    }
+
+    .pic1textblock {
+        rgb(14, 13, 13, .9)
+    }
+
+    .pic3textblock {
+        margin-top: 0;
+        padding-bottom: 5em;
+    }
+
+    .pic1cont {
+        max-height: 350px;
+    }
+
+    .pic3cont {
+        max-height: 370px;
+        position: relative;
+    }
+
+    .pic3textblock {
+        padding-bottom: 2em;
+        position: absolute;
+        bottom: 0%;
+        font-size: .75em;
+    }
+
+
+    .mainpictext {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        z-index: 10;
+    }
+
+    .mainpictext h1 {
+        margin-top: 2em;
+        font-size: 1.5em;
+        margin-left: 4em;
+        padding-right: .5em;
+        text-align: right;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .pic1textblock {
+        background: rgb(14, 13, 13, .9);
+    }
+
+    .mainpictext h3 {
+        text-align: right;
+        font-size: 1em;
+        padding-left: 2em;
+        margin-right: .5em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .picwrapper {
+        grid-column: 2/5;
+        grid-row: 3/5;
+    }
+
+    .picwrapper img {
+        width: 100%;
+    }
+
+    .howitstartedtext {
+        font-size: 1.1em;
+    }
+
+    .qualitytext {
+        font-size: 1em;
+    }
+
+    .carouseltextcontainer {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .picwrapperevents {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+        max-width: 190px;
+    }
+
+    .picwrapperevents img {
+        max-height: 190px;
+    }
+
+    .imageandchocolatepics {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        width: 90%;
+    }
+
+    .imagecontainer p {
+        background: rgb(14, 13, 13, .8);
+    }
+
+    .carouseltextcontainer {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:809px) {
+    .howitstartedpic {
+        grid-column: 2/5;
+        grid-row: 1/2;
+    }
+
+    .howitstartedtext {
+        grid-column: 2/5;
+        grid-row: 2/3;
+    }
+
+    .farmerphotocontainer {
+        grid-column: 2/5;
+        grid-row: 3/4;
+    }
+
+    .aboutcontent {
+        grid-column: 2/5;
+        grid-row: 4/5;
+    }
+
+    .text-block p {
+        font-size: .7em;
+    }
+
+    .qualitypic {
+        grid-row: 5/6;
+        grid-column: 2/5;
+    }
+
+    .aboutcontent p {
+        font-size: .8em;
+    }
+
+    .qualitytext {
+        grid-row: 6/7;
+        grid-column: 2/5;
+    }
+
+    #sidebar {
+        grid-row: 1/7;
+    }
+
+    .carouseltextcontainer {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .picwrapperevents {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        margin-left: 2em;
+    }
+
+
+    .picwrapperevents img {
+        width: 600px;
+    }
+
+    .carouseltextcontainer {
+        width: 90%;
+    }
+
+    .imageandchocolatepics {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .chocolatecontainer {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .picwrapperevents img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .howitstartedtext {
+        padding-bottom: 1.5em;
+    }
+
+    .imagecontainer p {
+        width: 90%;
+    }
+
+    .chocolatecontainer p {
+        width: 90%;
+    }
+}
+
+/**MOBILE LANDSCAPE**/
+@media only screen and (max-width: 680px) {
+    .pic1textblock {
+        background: rgb(14, 13, 13, .9);
+        font-size: .75em;
+    }
+
+    .howitstartedtext p {
+        padding-bottom: 1em;
+        padding-top: .5em;
+    }
+
+    .text-block p {
+        font-size: .6em;
+        padding: .5em;
+    }
+
+    .aboutcontent h1 {
+        font-size: 1.5em;
+    }
+
+    .qualitytext p {
+        padding-bottom: 1em;
+        padding-top: .5em;
+    }
+
+    .visitustitle h1 {
+        font-size: 1em;
+    }
+
+    .mainpictext h1 {
+        font-size: 1em;
+    }
+
+    .mainpictext h3 {
+        font-size: .75em;
+        margin-right: 0em;
+    }
+
+    .pic1cont {
+        max-height: 270px;
+    }
+
+    .visitusbody {
+        padding-top: 1em;
+    }
+
+    .visitusbody h2 {
+        font-size: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 630px) {
+    .blendedreds-sweetblush {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .dryred-semisweetwhite {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+}
+
+/**MOBILE PORTRAIT**/
+@media only screen and (max-width: 479px) {
+    .pic1textblock {
+        background: rgb(14, 13, 13, .9);
+    }
+
+    .messages {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0em;
+    }
+
+    .controls .container {
+        padding-left: 0em;
+        width: 100%;
+        margin-left: 0em;
+    }
+
+    .picwrappercontact img {
+        width: 300px;
+        margin-left: .5em;
+    }
+
+    .col-md-12 {
+        padding-left: 0em;
+    }
+
+    .input.btn.btn-send {
+        width: 80%;
+        height: 20vh;
+        font-size: .5em;
+    }
+
+    .messages h1 {
+        font-size: .9em;
+    }
+
+    .messages p {
+        font-size: .7em;
+    }
+
+    .picwrapperevents {
+        margin-left: 0em;
+    }
+
+    .imageandchocolatepics {
+        width: 300px;
+    }
+
+    .upcomingeventscontent p {
+        padding-left: .8em;
+        padding-top: 0em;
+        font-size: .8em;
+    }
+
+    .upcomingeventscontent h1 {
+        padding: .5em;
+        font-size: 1em;
+    }
+
+    .upcomingeventscontent2 h1 {
+        padding-left: 1.3em;
+        padding-top: 0em;
+        font-size: 1em;
+    }
+
+    .upcomingeventscontent2 p {
+        padding-left: 1.5em;
+        font-size: .8em;
+    }
+
+    .carouseltextcontainer {
+        width: 70%;
+    }
+
+    .imageandchocolatepics img {
+        width: 400px;
+    }
+
+    .imageandchocolatepics p {
+        width: 100%;
+    }
+
+    .howitstartedtext h3 {
+        padding: .75em;
+    }
+
+    .howitstartedtext p {
+        padding: 1em;
+        padding-top: 0em;
+    }
+
+    .qualitytext p {
+        padding: 1em;
+    }
+
+    .qualitytext h3 {
+        padding: .5em;
+        padding-bottom: 0em;
+    }
+
+    .aboutcontent p {
+        padding: 1.5em;
+    }
+
+    .aboutcontent h1 {
+        padding: 1em;
+        padding-bottom: 0em;
+    }
+}
